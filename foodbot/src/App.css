@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Your other styles */
+  .App {
+    text-align: center;
+  }
+  
+  .menu{
+    margin-top: 60px;
+  }
+  .menu-items {
+    font-family: sans-serif;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Display 4 columns per row */
+    gap: 20px; /* Adjust the gap between grid items */
+  }
+  
+  .menu-item {
+    font-family: sans-serif;
+    padding: 30px;
+    /* Optionally, you can add styles to control the size of each menu item */
+  }
+  
+  .menu-item img {
+    max-width: 100%; /* Ensure images fit within their containers */
+  }
+  img {
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.location{
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.location .loc{
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-us{
+    font-family: sans-serif;
+    margin-top: 100px;
+    
+}
+.about-us .loc{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 200px;
+}
+.menu{
+    font-family: sans-serif;
+}
